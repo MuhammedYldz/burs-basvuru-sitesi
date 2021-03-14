@@ -1,0 +1,33 @@
+﻿.wrapper .title{
+    display:none;
+}
+.wrapper .birinci_bolum{
+    display:none;
+}
+.wrapper .birinci_bolum_fotograf{
+    display:none;
+}
+.wrapper .ikamet_baslik{
+    display:none;
+}
+.wrapper .anne_baba_baslik {
+    display: none;
+}
+.wrapper .kardesler {
+    display: none;
+}
+.wrapper .ekonomik_durum {
+    display: none;
+}
+.wrapper .ogr_is_durum {
+    display: none;
+}
+.wrapper .burs_alma_durum {
+    display: none;
+}
+.wrapper .basari_durumu {
+    display: none;
+}
+.wrapper .besinci_bolum{
+    display:none;
+}

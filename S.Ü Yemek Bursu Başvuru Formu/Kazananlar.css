@@ -1,0 +1,164 @@
+﻿body {
+    background-color: #deeaee;
+}
+
+* {
+    border-style: none;
+    border-color: inherit;
+    border-width: 0;
+    padding: 0;
+    margin-right: 0;
+    margin-left: 0px;
+    margin-top: 0px;
+    }
+
+header {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    border-bottom: #92a8d1 3px solid;
+}
+
+    header.logo {
+        padding: 100px;
+        float: left;
+        margin: 10px;
+    }
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #d5e1df;
+}
+
+    .wrapper .title {
+        padding: 0px 10px 0px 10px;
+        height: 100px;
+        background-color: #deeaee;
+        text-align: center;
+        font-family:'Times New Roman';
+    }
+
+        .wrapper .title .lbl_title {
+            text-align: center;
+        }
+
+
+    table {
+        width: 100%;
+    }
+
+.wrapper .kazanan_sec {
+    height: 170px;
+    margin-top: 50px;
+    background-color: #d5e1df;
+    text-align: center;
+}
+
+        .wrapper .kazanan_sec .lbl_listele {
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+            transition-duration: 0.2s;
+            overflow: hidden;
+            color: black;
+        }
+
+            .wrapper .kazanan_sec .lbl_listele:link {
+                text-decoration: none;
+            }
+
+            .wrapper .kazanan_sec .lbl_listele:visited {
+                text-decoration: none;
+            }
+
+            .wrapper .kazanan_sec .lbl_listele:hover {
+                color: blue;
+                font-weight: bold;
+                font-size: 18px;
+                opacity: 0.8;
+                text-decoration: underline;
+            }
+
+            .wrapper .kazanan_sec .lbl_listele:active {
+                text-decoration: underline;
+            }
+
+    .wrapper .kazananlar_tablo {
+        background-color: #d5e1df
+    }
+        .wrapper .kazananlar_tablo table {
+            table-layout: fixed;
+        }
+        .wrapper .kazananlar_tablo table th {
+            text-align: left
+        }
+
+        .wrapper .kazananlar_tablo .tablolar .basliklar {
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            margin-top:25px;
+            margin-bottom:25px;
+            
+        }
+
+            .wrapper .kazananlar_tablo .tablolar .basliklar .tb_lblbaslik {
+                text-align: center;
+                font-family: sans-serif;
+                font-size: 16px;
+            }
+
+    .button-wrapper {
+        padding: 50px 20px;
+        text-align: center;
+    }
+        
+        
+
+    .wrapper .btn_yazdir {
+        width: 135px;
+        height: 45px;
+        float: left;
+        margin-left: 500px;
+        border: 2px solid #d5d5d5;
+        margin-top: 30px;
+        cursor: pointer;
+        outline: none;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        background-color: white;
+        color: black;
+        border: 2px solid #d5d5d5;
+        font-family: sans-serif;
+        font-size: 12px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+        .wrapper .btn_yazdir:hover {
+            background-color: #e7e7e7;
+        }
+    .wrapper .btn_puanlama {
+        width: 135px;
+        height: 45px;
+        float: right;
+        margin-right: 150px;
+        margin-top: 30px;
+        transition-duration: 0.4s;
+        text-decoration: none;
+        overflow: hidden;
+        cursor: pointer;
+        background-color: white;
+        color: black;
+        border: 2px solid #d5d5d5;
+        outline: none;
+        font-family: sans-serif;
+        font-size: 12px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+        .wrapper .btn_puanlama:hover {
+            background-color: #e7e7e7;
+        }
