@@ -1,5 +1,5 @@
 # Burs Başvuru ve Değerlendirme Sitesi
-Bu proje Selçuk Üniversitesi için ödev olarak Sümeyye Ünal ile birlikte hazırlanmıştır.
+Bu proje Sümeyye Ünal ile birlikte hazırlanmıştır.
 Proje Yemek Bursu başvurularını almak, Krıterleri Belirlemek ve Kazananları Listelemek için yapılmıştır.
 Projeyi çalıştırmak için Visual Studio ve Sql Management Studio programları bulunması gerekir.
 Projede html ve css kısımlarını sümeyye yazmıştır. Projenin algoritması, C# ve Sql kodları şahsıma aittir.
